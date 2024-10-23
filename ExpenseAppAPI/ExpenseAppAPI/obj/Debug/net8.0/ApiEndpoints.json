@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "ExpenseAppAPI.Controllers.ExpenseClaimController",
+    "Method": "CreateEdit",
+    "RelativePath": "api/ExpenseClaim/CreateEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claim",
+        "Type": "ExpenseAppAPI.Models.ExpenseClaim",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExpenseAppAPI.Controllers.ExpenseClaimController",
+    "Method": "Delete",
+    "RelativePath": "api/ExpenseClaim/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExpenseAppAPI.Controllers.ExpenseClaimController",
+    "Method": "Get",
+    "RelativePath": "api/ExpenseClaim/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExpenseAppAPI.Controllers.ExpenseClaimController",
+    "Method": "GetAll",
+    "RelativePath": "GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
